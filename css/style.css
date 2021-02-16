@@ -251,7 +251,7 @@ li.our-team__list-item--icon a {
 }
 .customers__list li {
 	width: calc(100% / 6 - 30px);
-	border: 1px solid #afb1b8;
+	border: 1px solid var(--colorSocialIcon);
 	border-radius: 4px;
 	text-align: center;
 	height: 90px;
@@ -259,13 +259,13 @@ li.our-team__list-item--icon a {
 	transition: 0.7s;
 }
 .customers__list li:hover {
-	border-color: #2196f3;
+	border-color: var(--colorButton);
 }
 .customers__list li svg path {
 	transition: 0.3s;
 }
 .customers__list li:hover svg path {
-	fill: #2196f3;
+	fill: var(--colorButton);
 }
 .customers__list li a {
 	width: 100%;
